@@ -174,7 +174,7 @@ format-padding = 1
 [module/network]
 type = internal/network
 interface-type = wireless
-interface = wlp0s29u1u5
+interface = wlan0
 interval = 3.0
 
 format-connected = %{A1:nm-connection-editor &:}<ramp-signal> <label-connected>%{A}

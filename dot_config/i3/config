@@ -1,5 +1,6 @@
 set $mod Mod1
 default_border pixel 2
+workspace_layout default
 client.focused		#7aa2f7 #7aa2f7 #ffffff #7aa2f7 #7aa2f7
 client.unfocused	#414868 #414868 #ffffff #414868 #414868
 font pango:Iosevka Nerd Font Propo 10
@@ -71,9 +72,9 @@ bindsym $mod+Shift+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s exec --no-startup-id maim -s | xclip -selection clipboard -t image/png 
-bindsym $mod+w layout tabbed
+#bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
-bindsym $mod+n layout toggle split tabbed stacking
+bindsym $mod+n layout toggle split stacking
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
