@@ -1,0 +1,46 @@
+[global]
+    ### Display and Position
+    monitor = 0
+    follow = mouse
+    width = 300
+    height = 110
+    origin = top-right
+    offset = 20x60
+    scale = 0
+    
+    ### Aesthetics
+    font = JetBrainsMono Nerd Font 10
+    corner_radius = 10
+    frame_width = 2
+    gap_size = 8
+    padding = 15
+    horizontal_padding = 15
+    text_icon_padding = 15
+    
+    ### Colors (TokyoNight Night)
+    frame_color = "#7aa2f7" 
+    separator_color = "#444b6a"
+
+    ### Progress Bar (Volume)
+    progress_bar = true
+    progress_bar_height = 8
+    progress_bar_frame_width = 0
+    progress_bar_min_width = 150
+    progress_bar_max_width = 270
+    highlight = "#7aa2f7"
+
+[urgency_low]
+    background = "#1a1b26" # Your 'bg'
+    foreground = "#bbbbbb" # Your 'fg'
+    timeout = 2
+
+[urgency_normal]
+    background = "#1a1b26"
+    foreground = "#a9b1d6" # Your 'lavender'
+    timeout = 4
+
+[urgency_critical]
+    background = "#1a1b26"
+    foreground = "#f7768e" # Your 'red'
+    frame_color = "#f7768e"
+    timeout = 0
