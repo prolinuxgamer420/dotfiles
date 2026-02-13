@@ -33,9 +33,9 @@ module-margin = 0
 separator =
 separator-foreground = ${colors.disabled}
 
-font-0 = "Iosevka Nerd Font;2"
-font-1 = "Iosevka Nerd Font:style=Bold:size=13;3"
-font-2 = "Iosevka Nerd Font:style=Bold:size=13;3"
+font-0 = "JetBrainsMono Nerd Font;2"
+font-1 = "JetBrainsMono Nerd Font:style=Bold:size=13;3"
+font-2 = "JetBrainsMono Nerd Font:style=Bold:size=13;3"
 font-3 = "Weather Icons:size=13;3"
 
 modules-left = xworkspaces separator dock separator rofi-windows rofi-launcher

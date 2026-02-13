@@ -3,7 +3,7 @@ default_border pixel 2
 workspace_layout default
 client.focused		#7aa2f7 #7aa2f7 #ffffff #7aa2f7 #7aa2f7
 client.unfocused	#414868 #414868 #ffffff #414868 #414868
-font pango:Iosevka Nerd Font Propo 10
+font pango:JetBrainsMono Nerd Font Propo 10
 
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
