@@ -184,6 +184,7 @@ oxwm.key.bind({ modkey }, "D", oxwm.spawn({ "sh", "-c", "rofi -show drun" }))
 oxwm.key.bind({ modkey }, "B", oxwm.spawn({ "sh", "-c", "firefox" }))
 -- Copy screenshot to clipboard
 oxwm.key.bind({ modkey }, "S", oxwm.spawn({ "sh", "-c", "maim -s | xclip -selection clipboard -t image/png" }))
+oxwm.key.bind({ modkey, "Shift" }, "X", oxwm.spawn({ "sh", "-c", "~/.config/rofi/powermenu.sh" }))
 oxwm.key.bind({ modkey }, "Q", oxwm.client.kill()) 
 -- Volume Control via our new script
 oxwm.key.bind({}, "XF86AudioMute", oxwm.spawn("~/.local/bin/vol_control.sh mute"))
